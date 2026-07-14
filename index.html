@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+
+    <div class="logo">🛒 MyStore</div>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search products..."
+    >
+
+    <nav>
+        <a href="#" id="homeBtn">Home</a>
+
+        <a href="#" id="cartBtn">
+            Cart (<span id="cartCount">0</span>)
+        </a>
+
+        <a href="#" id="favBtn">
+            Favorites (<span id="favCount">0</span>)
+        </a>
+    </nav>
+
+</header>
+
+<section class="hero">
+    <h1>Welcome To My Store</h1>
+    <p>Shop Your Favourite Products</p>
+</section>
+
+<div id="products"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
